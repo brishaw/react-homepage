@@ -11,7 +11,7 @@ class Header extends Component {
               <div className="top-bar-links">
                 <ul className="col-sm-6">
                   <li className="top-bar-email">
-                    <i class="fas fa-envelope"></i>
+                    <i className="fas fa-envelope"></i>
                     <a href="mailto:support@supportmail.com">supportmail.com</a>
                   </li>
                   <li className="top-bar-phone">
@@ -20,13 +20,13 @@ class Header extends Component {
                   </li>
                 </ul>
                 <div className="col-sm-6 soc-icons text-right no-padding">
-                  <a href="#">
+                  <a href="/">
                     <i className="fab fa-twitter-square"></i>
                   </a>
-                  <a href="#">
+                  <a href="/">
                     <i className="fab fa-github-square"></i>
                   </a>
-                  <a href="#">
+                  <a href="/">
                     <i className="fab fa-linkedin"></i>
                   </a>
 
