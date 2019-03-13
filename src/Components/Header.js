@@ -13,7 +13,7 @@ class Header extends Component {
                 <ul className="col-sm-6">
                   <li className="top-bar-email">
                     <i className="fas fa-envelope"></i>
-                    <a href="mailto:support@supportmail.com">supportmail.com</a>
+                    <a href="mailto:support@brishaw.com">support@brishaw.com</a>
                   </li>
                   <li className="top-bar-phone">
                     <i className="fas fa-phone"></i>
