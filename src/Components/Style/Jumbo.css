@@ -1,5 +1,11 @@
 .jumbo {
   width: 100%;
-  height: auto;
+  height: 500px;
   overflow: hidden;
+  position: relative;
+}
+
+.jumbo img {
+  position: absolute;
+  top: -15%;
 }
