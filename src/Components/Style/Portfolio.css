@@ -1,17 +1,51 @@
 .portfolio {
   background-color: rgba(11, 77, 177, .3);
   width: 100%;
-  height: 500px;
+  height: auto;
+}
+
+figure {
+  margin: 0;
 }
 
 .pane {
-  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .window {
-  background-color: rgba(0, 0, 0, 0);
-  width: 25%;
-  height: 250px;
-  padding: 10px;
-  margin: 5px;
+  background-color: rgba(0, 0, 0, .7);
+
+}
+
+.window img {
+  display: block;
+}
+
+.port-element {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .pane {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .window{
+    width: 50%;
+  } 
+}
+
+@media screen and (min-width: 1000px) {
+  .window{
+    width: calc(100% / 3);
+  } 
+}
+
+@media screen and (min-width: 1200px) {
+  .window{
+    width: calc(100% / 4);
+  } 
 }

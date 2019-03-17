@@ -3,3 +3,8 @@
   width: 100%;
   height: 500px;
 }
+
+.pane {
+  margin: 0 auto;
+  max-width: 1200px;
+}
