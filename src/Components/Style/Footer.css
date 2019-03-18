@@ -3,3 +3,10 @@
   width: 100%;
   height: 50px;
 }
+
+footer .pane {
+  display: flex;
+  height: inherit;
+  justify-content: center;
+  align-items: center;
+}

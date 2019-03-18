@@ -33,19 +33,19 @@ figure {
     flex-direction: row;
   }
 
-  .window{
+  .window {
     width: 50%;
   } 
 }
 
 @media screen and (min-width: 1000px) {
-  .window{
+  .window {
     width: calc(100% / 3);
   } 
 }
 
 @media screen and (min-width: 1200px) {
-  .window{
+  .window {
     width: calc(100% / 4);
   } 
 }

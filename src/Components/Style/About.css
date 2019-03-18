@@ -8,3 +8,40 @@
   margin: 0 auto;
   max-width: 1200px;
 }
+
+.frame p {
+  display: block;
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+
+  .frame{
+    width: 50%;
+  } 
+
+  .frame:last-of-type {
+    width: 50%;
+  }
+
+}
+
+@media screen and (min-width: 1000px) {
+  .frame {
+    width: calc(100% / 3);
+  } 
+
+  .frame:last-of-type {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .frame {
+    width: calc(100% / 4);
+  }
+  
+  .frame:last-of-type {
+    width: 50%;
+  }
+}
