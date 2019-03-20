@@ -49,6 +49,17 @@ class Header extends Component {
                     <span className="icon-bar"></span>
                     <span className="icon-bar"></span>
                   </button>
+                  <ul className="c-nav">
+                    <li>
+                      <a href="/">Portfolio</a>
+                    </li>
+                    <li>
+                      <a href="/">About</a>
+                    </li>
+                    <li>
+                      <a href="/">Contact</a>
+                    </li>
+                  </ul>
                 </div>
                 <div className="logo-container">
                   <div className="logo-wrap">

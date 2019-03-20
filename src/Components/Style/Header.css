@@ -211,6 +211,10 @@ input[type="search"], select, textarea {
   margin-top: 4px;
 }
 
+.c-nav li {
+  display: none;
+}
+
 .logo-container {
   padding: 15px;
   width: 25%;
@@ -304,11 +308,19 @@ input[type="search"], select, textarea {
 
   .navbar-header {
     height: 60px;
+    order: 2;
+
+  }
+
+  .c-nav li {
+    display: block;
   }
 
   .logo-container {
-    position: absolute;
-    top: 0;
+    /* position: absolute;
+    top: 0; */
+    padding: 7px;
+    width: inherit;
   }
 
   .logo-wrap {
