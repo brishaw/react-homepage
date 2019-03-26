@@ -7,5 +7,6 @@
 
 .jumbo img {
   position: absolute;
+  min-width: 100%;
   top: -15%;
 }

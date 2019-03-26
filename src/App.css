@@ -1,4 +1,66 @@
-p {
+.no-rp {
+  padding-right: 0;
+}
+
+.pane {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.frame p {
+  display: block;
+  width: 100%;
   margin: 0;
   padding: 0;
+}
+
+.frame:last-of-type {
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 600px) {
+
+  .frame{
+    width: 50%;
+  } 
+
+  .frame:last-of-type {
+    width: 50%;
+  }
+
+}
+
+@media screen and (min-width: 1000px) {
+  .frame {
+    width: calc(100% / 3);
+  } 
+
+  .frame p {
+    padding: 20px 0 0 0px;
+  }
+
+  .frame p::nth-of-type(2) {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .frame:last-of-type {
+    width: 33%;
+  }
+}
+
+@media (max-width: 991px) {
+  .frame p {
+    padding: 20px 20px 0 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .frame {
+    width: calc(100% / 4);
+  }
+  
+  .frame:last-of-type {
+    width: 50%;
+  }
 }

@@ -1,53 +1,16 @@
 .about {
   background-color: rgba(77, 77, 177, .3);
   width: 100%;
-  height: 500px;
+  height: auto;
+  min-height: 500px;
 }
 
-.pane {
-  margin: 0 auto;
-  max-width: 1200px;
-}
-
-.frame p {
-  display: block;
-  width: 100%;
-}
-
-@media screen and (min-width: 600px) {
-
-  .frame{
-    width: 50%;
-  } 
-
-  .frame:last-of-type {
-    width: 50%;
-  }
-
-}
-
-@media screen and (min-width: 1000px) {
-  .frame {
-    width: calc(100% / 3);
-  } 
-
-  .frame:last-of-type {
-    width: 25%;
-  }
+.about .frame:nth-child(2) {
+  padding: 0 20px;
 }
 
 @media (max-width: 991px) {
-  .frame p {
-    padding: 20px 20px 0 20px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .frame {
-    width: calc(100% / 4);
-  }
-  
-  .frame:last-of-type {
-    width: 50%;
+  .about .frame, .about .frame:nth-child(2) {
+    padding: 20px 0px 0 20px;
   }
 }

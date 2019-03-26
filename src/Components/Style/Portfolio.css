@@ -15,7 +15,28 @@ figure {
 
 .window {
   background-color: rgba(0, 0, 0, .7);
+}
 
+.window .port-element {
+  transition: 100ms ease all;
+  filter: drop-shadow(10px 10px 5px);
+}
+
+.window:hover .port-element {
+  animation: shaw 3s infinite;
+  transform: rotate(20deg) scale(2.5);
+  transition: 100ms ease all;
+}
+
+@keyframes shaw {
+  0% {
+    transform: rotate(20deg) scale(2.5);
+    filter: drop-shadow(10px 10px 25px)
+  }
+  100% {
+    transform: rotate(-20deg) scale(1);
+    filter: drop-shadow(10px 10px 5px)
+  }
 }
 
 .window img {
